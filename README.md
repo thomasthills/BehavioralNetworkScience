@@ -2,7 +2,7 @@
 
 <img src="./vanGogh5.svg" alt="image" width="300" height="auto">
 
-This page provides the R code for the book _Behavioral Network Science: Language, Mind, and Society_.  
+This page provides the R code for the book _Behavioral Network Science: Language, Mind, and Society_ (Cambridge University Press).  
 
 *Part I* is a useful place to start for those unfamiliar with network science.
 *Part II-IV* focus on specific methodologies and topics.
