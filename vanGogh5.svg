@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="778.0"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     contentStyleType="text/css"
+     viewBox="-222.000000 -472.000000 778.000000 837.000000" height="837.0"
+     preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+     version="1.1">
+    <g id="edges">
+        <path fill="none" stroke-width="2.407792"
+              d="M 117.177620,-123.444031 L 114.829353,-126.203606"
+              class="id_Corot id_Daubigny" stroke-opacity="1.0" stroke="#e0f61b"/>
+        <path fill="none" stroke-width="3.9974027"
+              d="M 117.530273,-106.582626 L 96.309128,-79.420761"
+              class="id_Corot id_Millet" stroke-opacity="1.0" stroke="#e8c715"/>
+        <path fill="none" stroke-width="2.2311687"
+              d="M 134.135361,-110.654663 L 142.335297,-106.927620"
+              class="id_Corot id_Breton" stroke-opacity="1.0" stroke="#e0f71b"/>
+        <path fill="none" stroke-width="0.3766234"
+              d="M 130.327209,-124.169167 L 183.929352,-203.388382"
+              class="id_Corot id_Bonington" stroke-opacity="1.0"
+              stroke="#94d669"/>
+        <path fill="none" stroke-width="0.64155847"
+              d="M 126.981613,-125.684502 L 136.575058,-162.379929"
+              class="id_Corot id_Troyon" stroke-opacity="1.0" stroke="#95d669"/>
+        <path fill="none" stroke-width="0.2883117"
+              d="M 52.652473,-245.963669 L 84.758209,-82.184181"
+              class="id_Stevens id_Millet" stroke-opacity="1.0" stroke="#abac54"/>
+        <path fill="none" stroke-width="0.2"
+              d="M 52.343773,-245.907928 L 60.692272,-195.383179"
+              class="id_Stevens id_Ostade" stroke-opacity="1.0" stroke="#6cc493"/>
+        <path fill="none" stroke-width="0.2"
+              d="M 361.939972,-210.370132 L 430.652283,-280.498901"
+              class="id_Millais id_Constable" stroke-opacity="1.0"
+              stroke="#74c88a"/>
+        <path fill="none" stroke-width="0.3766234"
+              d="M 365.075348,-203.299713 L 368.514557,-203.434555"
+              class="id_Millais id_Tissot" stroke-opacity="1.0" stroke="#87d077"/>
+        <path fill="none" stroke-width="0.55324674"
+              d="M 346.388824,-196.401581 L 219.559921,-96.317375"
+              class="id_Millais id_Mauve" stroke-opacity="0.99607843"
+              stroke="#d5e127"/>
+        <path fill="none" stroke-width="0.2"
+              d="M 346.665985,-196.065002 L 276.060577,-135.413071"
+              class="id_Millais id_Ingres" stroke-opacity="1.0" stroke="#9cd961"/>
+        <path fill="none" stroke-width="0.8181818"
+              d="M 37.425453,-110.050301 L 76.543411,-77.328041"
+              class="id_Diaz id_Millet" stroke-opacity="1.0" stroke="#bfb53f"/>
+        <path fill="none" stroke-width="0.46493506"
+              d="M 19.596222,-112.431549 L 18.884209,-112.104088"
+              class="id_Diaz id_Meissonier" stroke-opacity="1.0"
+              stroke="#7fcd7f"/>
+        <path fill="none" stroke-width="0.55324674"
+              d="M 39.725067,-114.931725 L 52.725883,-112.513443"
+              class="id_Diaz id_Rousseau" stroke-opacity="1.0" stroke="#7ecd7f"/>
+        <path fill="none" stroke-width="0.2"
+              d="M 106.651253,-145.417419 L 87.286629,-338.860931"
+              class="id_Daubigny id_Reynolds" stroke-opacity="1.0"
+              stroke="#90d26e"/>
+        <path fill="none" stroke-width="2.9376624"
+              d="M 104.551598,-124.071022 L 91.676140,-81.830063"
+              class="id_Daubigny id_Millet" stroke-opacity="1.0"
+              stroke="#f7cc06"/>
+        <path fill="none" stroke-width="0.55324674"
+              d="M 107.693352,-145.471725 L 107.548248,-178.956543"
+              class="id_Daubigny id_Delaroche" stroke-opacity="1.0"
+              stroke="#a4db59"/>
+        <path fill="none" stroke-width="0.64155847"
+              d="M 114.735260,-142.943146 L 132.600815,-164.422546"
+              class="id_Daubigny id_Troyon" stroke-opacity="1.0"
+              stroke="#a3db5a"/>
+        <path fill="none" stroke-width="2.407792"
+              d="M 99.144691,-127.770065 L 98.683281,-127.407005"
+              class="id_Daubigny id_Dupre" stroke-opacity="1.0" stroke="#cced30"/>
+        <path fill="none" stroke-width="0.2883117"
+              d="M 370.295013,-198.037231 L 220.039291,-95.664139"
+              class="id_Tissot id_Mauve" stroke-opacity="0.99607843"
+              stroke="#a6cc57"/>
+        <path fill="none" stroke-width="1.5246754"
+              d="M 218.026764,-97.917809 L 226.898438,-108.218216"
+              class="id_Mauve id_Weissenbruch" stroke-opacity="0.99607843"
+              stroke="#b9d543"/>
+        <path fill="none" stroke-width="3.8207793"
+              d="M 199.057114,-87.196541 L 101.599510,-70.561295"
+              class="id_Mauve id_Millet" stroke-opacity="0.99607843"
+              stroke="#f9bd04"/>
+        <path fill="none" stroke-width="0.2883117"
+              d="M 222.032837,-89.758797 L 352.101257,-96.666695"
+              class="id_Mauve id_Anker" stroke-opacity="0.99607843"
+              stroke="#a5cc58"/>
+        <path fill="none" stroke-width="1.2597402"
+              d="M 220.025620,-95.684158 L 259.575470,-122.751915"
+              class="id_Mauve id_Ingres" stroke-opacity="0.99607843"
+              stroke="#bbd542"/>
+        <path fill="none" stroke-width="0.55324674"
+              d="M 219.725998,-82.187706 L 295.875183,-24.948582"
+              class="id_Mauve id_Hals" stroke-opacity="0.99607843"
+              stroke="#e3e718"/>
+        <path fill="none" stroke-width="2.142857"
+              d="M 199.180725,-91.714195 L 163.106247,-99.924431"
+              class="id_Mauve id_Breton" stroke-opacity="0.99607843"
+              stroke="#f1ec0a"/>
+        <path fill="none" stroke-width="2.3194804"
+              d="M 211.938400,-77.659592 L 221.100204,-5.971903"
+              class="id_Mauve id_Rembrandt" stroke-opacity="0.99607843"
+              stroke="#f5d707"/>
+        <path fill="none" stroke-width="0.2883117"
+              d="M 220.660736,-94.642334 L 315.742462,-145.939041"
+              class="id_Mauve id_Correggio" stroke-opacity="0.99607843"
+              stroke="#91c36d"/>
+        <path fill="none" stroke-width="0.2883117"
+              d="M 218.545670,-97.442665 L 294.941864,-175.947128"
+              class="id_Mauve id_Pyle" stroke-opacity="0.99607843"
+              stroke="#91c36d"/>
+        <path fill="none" stroke-width="0.2883117"
+              d="M 243.535095,-119.695412 L 258.380371,-125.080940"
+              class="id_Weissenbruch id_Ingres" stroke-opacity="1.0"
+              stroke="#80cd7d"/>
+        <path fill="none" stroke-width="0.46493506"
+              d="M 223.415939,-114.390472 L 163.226563,-104.206947"
+              class="id_Weissenbruch id_Breton" stroke-opacity="1.0"
+              stroke="#b7e445"/>
+        <path fill="none" stroke-width="3.7324677"
+              d="M 100.151909,-74.825882 L 142.620590,-97.229073"
+              class="id_Millet id_Breton" stroke-opacity="1.0" stroke="#f7cc06"/>
+        <path fill="none" stroke-width="1.1714286"
+              d="M 80.108604,-80.387054 L 29.997513,-163.217850"
+              class="id_Millet id_Brion" stroke-opacity="1.0" stroke="#d8c026"/>
+        <path fill="none" stroke-width="0.9948052"
+              d="M 74.745529,-74.595497 L 18.716839,-102.865196"
+              class="id_Millet id_Meissonier" stroke-opacity="1.0"
+              stroke="#bfb53f"/>
+        <path fill="none" stroke-width="1.7012987"
+              d="M 80.398567,-80.557846 L 68.492317,-101.326866"
+              class="id_Millet id_Rousseau" stroke-opacity="1.0"
+              stroke="#beb540"/>
+        <path fill="none" stroke-width="3.1142857"
+              d="M 88.246605,-82.432091 L 89.673172,-110.011345"
+              class="id_Millet id_Dupre" stroke-opacity="1.0" stroke="#d4be2a"/>
+        <path fill="none" stroke-width="0.72987014"
+              d="M 78.345711,-79.128769 L 0.555205,-172.289078"
+              class="id_Millet id_Bodmer" stroke-opacity="1.0" stroke="#bfb53f"/>
+        <path fill="none" stroke-width="3.3792207"
+              d="M 100.046555,-61.290146 L 212.178284,0.111763"
+              class="id_Millet id_Rembrandt" stroke-opacity="1.0"
+              stroke="#fab703"/>
+        <path fill="none" stroke-width="1.7012987"
+              d="M 82.612724,-81.586815 L 64.573723,-131.077530"
+              class="id_Millet id_Ruisdael" stroke-opacity="1.0"
+              stroke="#bfb53f"/>
+        <path fill="none" stroke-width="0.72987014"
+              d="M 84.505188,-82.132202 L 64.658783,-174.499832"
+              class="id_Millet id_Ostade" stroke-opacity="1.0" stroke="#c0b53e"/>
+        <path fill="none" stroke-width="0.3766234"
+              d="M 81.537193,-81.144447 L 3.902981,-250.019562"
+              class="id_Millet id_Holbein" stroke-opacity="1.0" stroke="#acac53"/>
+        <path fill="none" stroke-width="0.2"
+              d="M 81.602783,-81.174393 L -20.397436,-306.033569"
+              class="id_Millet id_Vinci" stroke-opacity="1.0" stroke="#acac53"/>
+        <path fill="none" stroke-width="0.64155847"
+              d="M 75.173500,-75.381523 L -19.134315,-130.626022"
+              class="id_Millet id_Dore" stroke-opacity="1.0" stroke="#beb540"/>
+        <path fill="none" stroke-width="0.3766234"
+              d="M 76.580109,-77.371727 L -72.471458,-203.068161"
+              class="id_Millet id_Menzel" stroke-opacity="1.0" stroke="#d7c026"/>
+        <path fill="none" stroke-width="4.174026"
+              d="M 83.779823,-54.355606 L 57.964008,41.201496"
+              class="id_Millet id_Delacroix" stroke-opacity="1.0"
+              stroke="#f8c205"/>
+        <path fill="none" stroke-width="1.4363637"
+              d="M 73.722580,-64.373207 L 28.014948,-51.830887"
+              class="id_Millet id_Gavarni" stroke-opacity="1.0" stroke="#d4be2a"/>
+        <path fill="none" stroke-width="2.761039"
+              d="M 78.855751,-56.776752 L 51.651756,-20.999245"
+              class="id_Millet id_Daumier" stroke-opacity="1.0" stroke="#e9c714"/>
+        <path fill="none" stroke-width="0.2"
+              d="M 73.726440,-71.952843 L -131.457870,-128.480621"
+              class="id_Millet id_Lefebvre" stroke-opacity="1.0"
+              stroke="#96a369"/>
+        <path fill="none" stroke-width="0.55324674"
+              d="M 88.895699,-82.383675 L 108.339806,-281.760834"
+              class="id_Millet id_Frank" stroke-opacity="1.0" stroke="#c5b739"/>
+        <path fill="none" stroke-width="0.46493506"
+              d="M 73.248344,-69.160721 L -66.359772,-78.997124"
+              class="id_Millet id_Goya" stroke-opacity="1.0" stroke="#c0b53e"/>
+        <path fill="none" stroke-width="0.64155847"
+              d="M 73.622276,-71.552200 L -41.313793,-99.663086"
+              class="id_Millet id_Michelangelo" stroke-opacity="1.0"
+              stroke="#bfb53f"/>
+        <path fill="none" stroke-width="0.2"
+              d="M 89.442528,-82.319695 L 123.657974,-332.848572"
+              class="id_Millet id_Whistler" stroke-opacity="1.0"
+              stroke="#acac53"/>
+        <path fill="none" stroke-width="0.46493506"
+              d="M 97.292908,-57.734383 L 119.068207,-34.541740"
+              class="id_Millet id_Gericault" stroke-opacity="1.0"
+              stroke="#96a369"/>
+        <path fill="none" stroke-width="0.3766234"
+              d="M 73.415039,-65.761070 L -14.943727,-50.745621"
+              class="id_Millet id_Bracquemond" stroke-opacity="1.0"
+              stroke="#96a369"/>
+        <path fill="none" stroke-width="0.72987014"
+              d="M 73.263741,-69.359444 L 2.311986,-75.353767"
+              class="id_Millet id_Manet" stroke-opacity="1.0" stroke="#abac54"/>
+        <path fill="none" stroke-width="0.2883117"
+              d="M 89.850754,-82.257927 L 113.228256,-222.985397"
+              class="id_Millet id_Liebermann" stroke-opacity="1.0"
+              stroke="#96a369"/>
+        <path fill="none" stroke-width="0.46493506"
+              d="M 74.294510,-73.610474 L -56.903122,-127.767502"
+              class="id_Millet id_Cabanel" stroke-opacity="1.0" stroke="#bfb53f"/>
+        <path fill="none" stroke-width="0.2"
+              d="M 74.859123,-74.815872 L -116.644310,-175.644608"
+              class="id_Millet id_Poussin" stroke-opacity="1.0" stroke="#96a369"/>
+        <path fill="none" stroke-width="2.407792"
+              d="M 88.273148,-53.881332 L 98.077339,129.063339"
+              class="id_Millet id_Gauguin" stroke-opacity="1.0" stroke="#fda701"/>
+        <path fill="none" stroke-width="0.2"
+              d="M 356.287262,-88.903816 L 310.800049,-27.139023"
+              class="id_Anker id_Hals" stroke-opacity="1.0" stroke="#94d669"/>
+        <path fill="none" stroke-width="0.2883117"
+              d="M -69.768494,107.721306 L 44.555458,56.863258"
+              class="id_Bouguereau id_Delacroix" stroke-opacity="1.0"
+              stroke="#91c96d"/>
+        <path fill="none" stroke-width="1.612987"
+              d="M 294.168976,-15.453195 L 234.005051,2.434128"
+              class="id_Hals id_Rembrandt" stroke-opacity="1.0" stroke="#e4e118"/>
+        <path fill="none" stroke-width="0.55324674"
+              d="M 314.598175,-15.075109 L 358.429291,-0.257641"
+              class="id_Hals id_Rubens" stroke-opacity="1.0" stroke="#d7f424"/>
+        <path fill="none" stroke-width="0.3766234"
+              d="M 315.155396,-18.904778 L 408.088562,-22.347599"
+              class="id_Hals id_Chardin" stroke-opacity="1.0" stroke="#96d768"/>
+        <path fill="none" stroke-width="0.55324674"
+              d="M 104.990982,-179.268524 L 92.860443,-131.185669"
+              class="id_Delaroche id_Dupre" stroke-opacity="1.0"
+              stroke="#81ce7d"/>
+        <path fill="none" stroke-width="0.2"
+              d="M 155.918060,-112.796776 L 186.375946,-202.171158"
+              class="id_Breton id_Bonington" stroke-opacity="1.0"
+              stroke="#a3db5a"/>
+        <path fill="none" stroke-width="0.2"
+              d="M 157.767532,-111.969681 L 248.405258,-273.019531"
+              class="id_Breton id_Crome" stroke-opacity="1.0" stroke="#8fd36e"/>
+        <path fill="none" stroke-width="0.46493506"
+              d="M 14.075516,-175.118744 L 4.030611,-177.758774"
+              class="id_Brion id_Bodmer" stroke-opacity="1.0" stroke="#98d865"/>
+        <path fill="none" stroke-width="0.2"
+              d="M 18.275913,-181.162964 L -84.621277,-327.400696"
+              class="id_Brion id_Boldini" stroke-opacity="1.0" stroke="#72c78d"/>
+        <path fill="none" stroke-width="0.3766234"
+              d="M 32.583862,-165.408630 L 52.849159,-148.014359"
+              class="id_Brion id_Ruisdael" stroke-opacity="1.0" stroke="#98d865"/>
+        <path fill="none" stroke-width="0.2"
+              d="M -0.921945,-110.884567 L -56.599064,-128.601044"
+              class="id_Meissonier id_Cabanel" stroke-opacity="1.0"
+              stroke="#7fcd7f"/>
+        <path fill="none" stroke-width="1.1714286"
+              d="M 73.161079,-114.321846 L 80.162399,-116.960655"
+              class="id_Rousseau id_Dupre" stroke-opacity="1.0" stroke="#93d66a"/>
+        <path fill="none" stroke-width="0.2883117"
+              d="M -16.176567,-184.395737 L -70.701279,-206.027039"
+              class="id_Bodmer id_Menzel" stroke-opacity="1.0" stroke="#98d866"/>
+        <path fill="none" stroke-width="0.9064935"
+              d="M 234.496124,5.604466 L 357.871552,3.339584"
+              class="id_Rembrandt id_Rubens" stroke-opacity="1.0"
+              stroke="#e8e313"/>
+        <path fill="none" stroke-width="0.3766234"
+              d="M 232.622406,12.232731 L 403.926056,121.876129"
+              class="id_Rembrandt id_Titian" stroke-opacity="1.0"
+              stroke="#acc852"/>
+        <path fill="none" stroke-width="0.55324674"
+              d="M 232.683487,12.136269 L 290.106293,48.117321"
+              class="id_Rembrandt id_Maes" stroke-opacity="1.0" stroke="#a8c755"/>
+        <path fill="none" stroke-width="0.2883117"
+              d="M 233.857910,9.671731 L 423.462128,74.540016"
+              class="id_Rembrandt id_Cuyp" stroke-opacity="1.0" stroke="#bdd041"/>
+        <path fill="none" stroke-width="0.9064935"
+              d="M 232.816788,11.918379 L 265.358917,31.348484"
+              class="id_Rembrandt id_Vermeer" stroke-opacity="1.0"
+              stroke="#a8c755"/>
+        <path fill="none" stroke-width="0.2"
+              d="M 231.432602,13.791650 L 352.610596,123.214508"
+              class="id_Rembrandt id_Murillo" stroke-opacity="1.0"
+              stroke="#92bd6c"/>
+        <path fill="none" stroke-width="0.3766234"
+              d="M 233.447037,10.710575 L 361.725830,68.555634"
+              class="id_Rembrandt id_Watteau" stroke-opacity="1.0"
+              stroke="#a7c657"/>
+        <path fill="none" stroke-width="0.2883117"
+              d="M 234.364243,7.602008 L 417.672577,35.344543"
+              class="id_Rembrandt id_Boucher" stroke-opacity="1.0"
+              stroke="#bbcf42"/>
+        <path fill="none" stroke-width="1.7896104"
+              d="M 214.589630,14.603240 L 107.119400,132.294922"
+              class="id_Rembrandt id_Gauguin" stroke-opacity="1.0"
+              stroke="#f8c104"/>
+        <path fill="none" stroke-width="0.55324674"
+              d="M 215.907944,15.646152 L 153.948761,106.494682"
+              class="id_Rembrandt id_Haan" stroke-opacity="1.0" stroke="#a5c559"/>
+        <path fill="none" stroke-width="0.2883117"
+              d="M 377.922119,-1.750171 L 409.234131,-18.005217"
+              class="id_Rubens id_Chardin" stroke-opacity="1.0" stroke="#9ad963"/>
+        <path fill="none" stroke-width="0.2883117"
+              d="M 377.733185,8.387279 L 418.915100,31.753920"
+              class="id_Rubens id_Boucher" stroke-opacity="1.0" stroke="#aee24e"/>
+        <path fill="none" stroke-width="0.3766234"
+              d="M 379.113281,2.866771 L 461.798401,0.703692"
+              class="id_Rubens id_Jordaens" stroke-opacity="1.0"
+              stroke="#86d077"/>
+        <path fill="none" stroke-width="0.2"
+              d="M 421.709778,132.224106 L 537.655029,193.270187"
+              class="id_Titian id_Bellini" stroke-opacity="1.0" stroke="#4db6b3"/>
+        <path fill="none" stroke-width="0.55324674"
+              d="M 61.291515,-151.720459 L 62.062267,-174.268829"
+              class="id_Ruisdael id_Ostade" stroke-opacity="1.0"
+              stroke="#81cd7d"/>
+        <path fill="none" stroke-width="0.2"
+              d="M 290.350861,47.745132 L 282.708191,42.483517"
+              class="id_Maes id_Vermeer" stroke-opacity="1.0" stroke="#5bbda4"/>
+        <path fill="none" stroke-width="0.2"
+              d="M -4.662192,-269.215912 L -20.564671,-305.959473"
+              class="id_Holbein id_Vinci" stroke-opacity="1.0" stroke="#59bca6"/>
+        <path fill="none" stroke-width="0.2883117"
+              d="M 47.067490,322.603882 L 75.389572,226.286377"
+              class="id_Mantegna id_Russell" stroke-opacity="1.0"
+              stroke="#96d767"/>
+        <path fill="none" stroke-width="0.2"
+              d="M 45.621937,322.290039 L 63.642586,195.875137"
+              class="id_Mantegna id_Monticelli" stroke-opacity="1.0"
+              stroke="#96d767"/>
+        <path fill="none" stroke-width="0.2"
+              d="M 422.936188,77.058815 L 381.421661,73.644508"
+              class="id_Cuyp id_Watteau" stroke-opacity="1.0" stroke="#6ec591"/>
+        <path fill="none" stroke-width="0.2"
+              d="M 431.979279,67.580002 L 429.341583,47.262444"
+              class="id_Cuyp id_Boucher" stroke-opacity="1.0" stroke="#82ce7c"/>
+        <path fill="none" stroke-width="0.8181818"
+              d="M 88.593468,219.258240 L 89.120918,219.425186"
+              class="id_Russell id_Monet" stroke-opacity="1.0" stroke="#c0e93c"/>
+        <path fill="none" stroke-width="0.8181818"
+              d="M 74.179451,206.216736 L 69.398460,195.108475"
+              class="id_Russell id_Monticelli" stroke-opacity="1.0"
+              stroke="#d4f327"/>
+        <path fill="none" stroke-width="2.407792"
+              d="M 81.216721,205.722748 L 95.473068,153.454437"
+              class="id_Russell id_Gauguin" stroke-opacity="1.0"
+              stroke="#e8d214"/>
+        <path fill="none" stroke-width="0.2883117"
+              d="M 79.593666,226.654083 L 90.207855,321.451874"
+              class="id_Russell id_Renoir" stroke-opacity="1.0" stroke="#97d767"/>
+        <path fill="none" stroke-width="0.46493506"
+              d="M -34.484184,-144.710876 L -74.475174,-201.227524"
+              class="id_Dore id_Menzel" stroke-opacity="1.0" stroke="#97d866"/>
+        <path fill="none" stroke-width="0.46493506"
+              d="M -23.351637,-126.589920 L 12.620422,-58.494278"
+              class="id_Dore id_Gavarni" stroke-opacity="1.0" stroke="#93d66a"/>
+        <path fill="none" stroke-width="0.2"
+              d="M -88.999496,-216.736038 L -204.453094,-310.351990"
+              class="id_Menzel id_Gilbert" stroke-opacity="1.0" stroke="#71c78d"/>
+        <path fill="none" stroke-width="2.0545454"
+              d="M 53.249470,40.939278 L 46.710323,-1.540096"
+              class="id_Delacroix id_Daumier" stroke-opacity="1.0"
+              stroke="#e2ed19"/>
+        <path fill="none" stroke-width="2.142857"
+              d="M 54.895123,63.639145 L 54.240059,145.532623"
+              class="id_Delacroix id_Bernard" stroke-opacity="1.0"
+              stroke="#f2e709"/>
+        <path fill="none" stroke-width="0.9948052"
+              d="M 43.598724,53.034058 L -6.659569,56.613823"
+              class="id_Delacroix id_Courbet" stroke-opacity="1.0"
+              stroke="#bddc3f"/>
+        <path fill="none" stroke-width="0.55324674"
+              d="M 48.108883,61.335419 L 8.194378,114.220474"
+              class="id_Delacroix id_Chavannes" stroke-opacity="1.0"
+              stroke="#a5d159"/>
+        <path fill="none" stroke-width="3.3792207"
+              d="M 60.012241,62.473763 L 93.273155,130.314087"
+              class="id_Delacroix id_Gauguin" stroke-opacity="1.0"
+              stroke="#f6cd06"/>
+        <path fill="none" stroke-width="0.2"
+              d="M 44.721230,57.219280 L -121.427132,138.087906"
+              class="id_Delacroix id_Raphael" stroke-opacity="1.0"
+              stroke="#91c96d"/>
+        <path fill="none" stroke-width="0.3766234"
+              d="M 44.584000,56.926895 L -33.499916,92.236237"
+              class="id_Delacroix id_Botticelli" stroke-opacity="1.0"
+              stroke="#91c96d"/>
+        <path fill="none" stroke-width="1.1714286"
+              d="M 24.082575,-40.370934 L 38.522102,-21.053200"
+              class="id_Gavarni id_Daumier" stroke-opacity="1.0"
+              stroke="#bee83e"/>
+        <path fill="none" stroke-width="0.2883117"
+              d="M 7.294913,-46.058998 L -97.471436,-16.437702"
+              class="id_Gavarni id_Rops" stroke-opacity="1.0" stroke="#80cd7d"/>
+        <path fill="none" stroke-width="0.2"
+              d="M 34.146286,-12.413258 L -97.084473,-13.554662"
+              class="id_Daumier id_Rops" stroke-opacity="1.0" stroke="#95d768"/>
+        <path fill="none" stroke-width="0.46493506"
+              d="M 37.795975,-4.176699 L -10.114365,49.588043"
+              class="id_Daumier id_Courbet" stroke-opacity="1.0"
+              stroke="#aee14f"/>
+        <path fill="none" stroke-width="0.3766234"
+              d="M 47.009686,165.155991 L -53.312122,284.735687"
+              class="id_Bernard id_Eyck" stroke-opacity="1.0" stroke="#a8d255"/>
+        <path fill="none" stroke-width="0.3766234"
+              d="M 44.855396,150.556732 L 10.615599,128.136536"
+              class="id_Bernard id_Chavannes" stroke-opacity="1.0"
+              stroke="#a5d158"/>
+        <path fill="none" stroke-width="2.0545454"
+              d="M 58.140514,167.014084 L 61.304585,175.239258"
+              class="id_Bernard id_Monticelli" stroke-opacity="1.0"
+              stroke="#e3ed18"/>
+        <path fill="none" stroke-width="7.0"
+              d="M 64.670105,153.063919 L 86.981163,145.471268"
+              class="id_Bernard id_Gauguin" stroke-opacity="1.0"
+              stroke="#f6cc05"/>
+        <path fill="none" stroke-width="0.2"
+              d="M 47.224739,165.331879 L -86.153656,332.636749"
+              class="id_Bernard id_Cranach" stroke-opacity="1.0"
+              stroke="#a8d255"/>
+        <path fill="none" stroke-width="0.2883117"
+              d="M 49.356937,166.667419 L 0.236156,269.369202"
+              class="id_Bernard id_Cimabue" stroke-opacity="1.0"
+              stroke="#a5d158"/>
+        <path fill="none" stroke-width="0.2"
+              d="M 49.703999,166.826141 L -23.844723,335.227783"
+              class="id_Bernard id_Goes" stroke-opacity="1.0" stroke="#91c86c"/>
+        <path fill="none" stroke-width="0.3766234"
+              d="M 46.041447,164.239258 L -16.401075,222.723480"
+              class="id_Bernard id_Hokusai" stroke-opacity="1.0"
+              stroke="#91c86c"/>
+        <path fill="none" stroke-width="0.2"
+              d="M -189.186234,111.061966 L -26.961880,60.450233"
+              class="id_Steen id_Courbet" stroke-opacity="1.0" stroke="#5ebea0"/>
+        <path fill="none" stroke-width="0.2"
+              d="M 112.488754,-302.425720 L 121.982437,-333.218658"
+              class="id_Frank id_Whistler" stroke-opacity="1.0" stroke="#72c78c"/>
+        <path fill="none" stroke-width="0.2"
+              d="M 109.696152,-302.890778 L 114.307617,-451.656494"
+              class="id_Frank id_Dadd" stroke-opacity="1.0" stroke="#60bf9f"/>
+        <path fill="none" stroke-width="0.2"
+              d="M -69.009956,-86.797173 L -59.609558,-95.132164"
+              class="id_Goya id_Michelangelo" stroke-opacity="1.0"
+              stroke="#81cd7d"/>
+        <path fill="none" stroke-width="0.2"
+              d="M -66.347244,-79.203369 L -18.677383,-76.774689"
+              class="id_Goya id_Manet" stroke-opacity="1.0" stroke="#6cc493"/>
+        <path fill="none" stroke-width="0.2883117"
+              d="M -56.476139,-111.672089 L -61.910545,-122.345497"
+              class="id_Michelangelo id_Cabanel" stroke-opacity="1.0"
+              stroke="#80cd7e"/>
+        <path fill="none" stroke-width="0.3766234"
+              d="M 99.637054,262.050781 L 98.834358,153.891922"
+              class="id_Boulanger id_Gauguin" stroke-opacity="1.0"
+              stroke="#95ad6a"/>
+        <path fill="none" stroke-width="0.2"
+              d="M -65.659752,301.068634 L -86.784355,332.172241"
+              class="id_Eyck id_Cranach" stroke-opacity="1.0" stroke="#5ebea2"/>
+        <path fill="none" stroke-width="0.2883117"
+              d="M 157.292007,208.047501 L 159.088089,225.901733"
+              class="id_Giotto id_Degas" stroke-opacity="1.0" stroke="#6ec591"/>
+        <path fill="none" stroke-width="0.9064935"
+              d="M 148.844055,190.483398 L 107.622658,150.156647"
+              class="id_Giotto id_Gauguin" stroke-opacity="1.0" stroke="#a9b754"/>
+        <path fill="none" stroke-width="0.55324674"
+              d="M 103.210373,212.819244 L 106.264832,205.333374"
+              class="id_Monet id_Guillaumin" stroke-opacity="1.0"
+              stroke="#95d668"/>
+        <path fill="none" stroke-width="1.7012987"
+              d="M 99.150497,212.035034 L 98.814049,153.892059"
+              class="id_Monet id_Gauguin" stroke-opacity="1.0" stroke="#d3c92a"/>
+        <path fill="none" stroke-width="0.2883117"
+              d="M 98.450165,233.175873 L 92.084488,321.414825"
+              class="id_Monet id_Renoir" stroke-opacity="1.0" stroke="#82ce7c"/>
+        <path fill="none" stroke-width="0.72987014"
+              d="M 154.448151,227.529297 L 105.492874,151.898102"
+              class="id_Degas id_Gauguin" stroke-opacity="1.0" stroke="#bfc03e"/>
+        <path fill="none" stroke-width="0.2883117"
+              d="M 153.154007,228.517914 L 145.699524,220.191711"
+              class="id_Degas id_Seurat" stroke-opacity="1.0" stroke="#83ce7c"/>
+        <path fill="none" stroke-width="1.4363637"
+              d="M 108.050957,185.369781 L 101.319138,153.622070"
+              class="id_Guillaumin id_Gauguin" stroke-opacity="1.0"
+              stroke="#bdbf40"/>
+        <path fill="none" stroke-width="0.46493506"
+              d="M 119.395302,190.542831 L 119.341225,190.572815"
+              class="id_Guillaumin id_Pissarro" stroke-opacity="1.0"
+              stroke="#80cd7d"/>
+        <path fill="none" stroke-width="0.55324674"
+              d="M 57.472878,220.611786 L 92.998016,152.484558"
+              class="id_Signac id_Gauguin" stroke-opacity="1.0" stroke="#95ad6a"/>
+        <path fill="none" stroke-width="2.761039"
+              d="M 71.686951,176.739990 L 91.180923,151.326263"
+              class="id_Monticelli id_Gauguin" stroke-opacity="1.0"
+              stroke="#e7d215"/>
+        <path fill="none" stroke-width="0.2"
+              d="M 58.759853,193.867020 L 1.930817,270.390686"
+              class="id_Monticelli id_Cimabue" stroke-opacity="1.0"
+              stroke="#96d768"/>
+        <path fill="none" stroke-width="1.4363637"
+              d="M 105.699905,151.761124 L 122.636490,176.814529"
+              class="id_Gauguin id_Pissarro" stroke-opacity="1.0"
+              stroke="#bec03f"/>
+        <path fill="none" stroke-width="0.2"
+              d="M 101.584023,153.562866 L 146.399200,344.280609"
+              class="id_Gauguin id_Sisley" stroke-opacity="1.0" stroke="#95ad6a"/>
+        <path fill="none" stroke-width="1.0831169"
+              d="M 104.841965,152.291687 L 133.569275,203.262146"
+              class="id_Gauguin id_Seurat" stroke-opacity="1.0" stroke="#bec03f"/>
+        <path fill="none" stroke-width="0.55324674"
+              d="M 90.303436,150.586365 L 42.694035,202.024994"
+              class="id_Gauguin id_Cezanne" stroke-opacity="1.0"
+              stroke="#95ad6a"/>
+        <path fill="none" stroke-width="0.2883117"
+              d="M 102.337196,153.360748 L 142.361572,285.755615"
+              class="id_Gauguin id_Maurin" stroke-opacity="1.0" stroke="#95ad6a"/>
+        <path fill="none" stroke-width="1.4363637"
+              d="M 109.701752,135.618484 L 138.804230,120.083061"
+              class="id_Gauguin id_Haan" stroke-opacity="1.0" stroke="#a7b657"/>
+        <path fill="none" stroke-width="0.46493506"
+              d="M 132.221497,195.287811 L 134.995010,202.594391"
+              class="id_Pissarro id_Seurat" stroke-opacity="1.0"
+              stroke="#81ce7d"/>
+    </g>
+    <g id="nodes">
+        <circle fill-opacity="1.0" fill="#d2f22a" r="10.010694" cx="124.22939"
+                class="id_Corot" cy="-115.15713" stroke="#93a91d"
+                stroke-opacity="1.0" stroke-width="1.7409902"/>
+        <circle fill-opacity="1.0" fill="#57bba9" r="9.678587" cx="50.62871"
+                class="id_Stevens" cy="-256.28738" stroke="#3c8276"
+                stroke-opacity="1.0" stroke-width="1.6832325"/>
+        <circle fill-opacity="1.0" fill="#b6e547" r="9.635216" cx="354.61032"
+                class="id_Millais" cy="-202.8894" stroke="#7fa031"
+                stroke-opacity="1.0" stroke-width="1.6756897"/>
+        <circle fill-opacity="1.0" fill="#33abcd" r="9.300524" cx="437.72733"
+                class="id_Constable" cy="-287.7198" stroke="#23778f"
+                stroke-opacity="1.0" stroke-width="1.6174824"/>
+        <circle fill-opacity="1.0" fill="#7fcd7f" r="9.78957" cx="29.263672"
+                class="id_Diaz" cy="-116.87765" stroke="#588f58"
+                stroke-opacity="1.0" stroke-width="1.7025338"/>
+        <circle fill-opacity="1.0" fill="#effb0c" r="10.062982" cx="107.74075"
+                class="id_Daubigny" cy="-134.5338" stroke="#a7af08"
+                stroke-opacity="1.0" stroke-width="1.7500837"/>
+        <circle fill-opacity="1.0" fill="#31aad0" r="9.331905" cx="86.276276"
+                class="id_Reynolds" cy="-348.95386" stroke="#227691"
+                stroke-opacity="1.0" stroke-width="1.6229401"/>
+        <circle fill-opacity="1.0" fill="#59bca7" r="9.478372" cx="378.80923"
+                class="id_Tissot" cy="-203.8382" stroke="#3e8374"
+                stroke-opacity="1.0" stroke-width="1.6484125"/>
+        <circle fill-opacity="1.0" fill="#f4dd08" r="10.652267" cx="210.47058"
+                class="id_Mauve" cy="-89.14473" stroke="#aa9a05"
+                stroke-opacity="1.0" stroke-width="1.8525681"/>
+        <circle fill-opacity="1.0" fill="#7fcd7f" r="9.610199" cx="233.71544"
+                class="id_Weissenbruch" cy="-116.13306" stroke="#588f58"
+                stroke-opacity="1.0" stroke-width="1.6713389"/>
+        <circle fill-opacity="1.0" fill="#ff9d00" r="13.151549" cx="87.508156"
+                class="id_Millet" cy="-68.15601" stroke="#b26d00"
+                stroke-opacity="1.0" stroke-width="2.287226"/>
+        <circle fill-opacity="1.0" fill="#56bba9" r="9.495013" cx="362.4074"
+                class="id_Anker" cy="-97.21405" stroke="#3c8276"
+                stroke-opacity="1.0" stroke-width="1.6513066"/>
+        <circle fill-opacity="1.0" fill="#30aad1" r="9.365571" cx="-79.06963"
+                class="id_Bouguereau" cy="111.859" stroke="#217692"
+                stroke-opacity="1.0" stroke-width="1.628795"/>
+        <circle fill-opacity="1.0" fill="#82ce7c" r="9.575984" cx="268.16507"
+                class="id_Ingres" cy="-128.63062" stroke="#5b9056"
+                stroke-opacity="1.0" stroke-width="1.6653885"/>
+        <circle fill-opacity="1.0" fill="#d3f229" r="9.861598" cx="304.4436"
+                class="id_Hals" cy="-18.507946" stroke="#93a91c"
+                stroke-opacity="1.0" stroke-width="1.7150606"/>
+        <circle fill-opacity="1.0" fill="#59bca7" r="9.450301" cx="107.50373"
+                class="id_Delaroche" cy="-189.22852" stroke="#3e8374"
+                stroke-opacity="1.0" stroke-width="1.6435305"/>
+        <circle fill-opacity="1.0" fill="#effc0c" r="10.135179" cx="152.36444"
+                class="id_Breton" cy="-102.36917" stroke="#a7b008"
+                stroke-opacity="1.0" stroke-width="1.7626398"/>
+        <circle fill-opacity="1.0" fill="#b1e34c" r="9.865593" cx="24.446764"
+                class="id_Brion" cy="-172.39293" stroke="#7b9e35"
+                stroke-opacity="1.0" stroke-width="1.7157552"/>
+        <circle fill-opacity="1.0" fill="#7fcd7f" r="9.788991" cx="9.217329"
+                class="id_Meissonier" cy="-107.65825" stroke="#588f58"
+                stroke-opacity="1.0" stroke-width="1.7024331"/>
+        <circle fill-opacity="1.0" fill="#57bba8" r="9.464256" cx="189.69432"
+                class="id_Bonington" cy="-211.9085" stroke="#3c8275"
+                stroke-opacity="1.0" stroke-width="1.6459576"/>
+        <circle fill-opacity="1.0" fill="#7ecd80" r="9.797585" cx="63.195843"
+                class="id_Rousseau" cy="-110.565926" stroke="#588f59"
+                stroke-opacity="1.0" stroke-width="1.7039278"/>
+        <circle fill-opacity="1.0" fill="#58bba8" r="9.459208" cx="139.17566"
+                class="id_Troyon" cy="-172.32735" stroke="#3d8275"
+                stroke-opacity="1.0" stroke-width="1.6450795"/>
+        <circle fill-opacity="1.0" fill="#a9e054" r="9.897137" cx="90.22889"
+                class="id_Dupre" cy="-120.75474" stroke="#769c3a"
+                stroke-opacity="1.0" stroke-width="1.7212411"/>
+        <circle fill-opacity="1.0" fill="#80cd7f" r="9.801672" cx="-6.2734404"
+                class="id_Bodmer" cy="-180.46692" stroke="#598f58"
+                stroke-opacity="1.0" stroke-width="1.7046386"/>
+        <circle fill-opacity="1.0" fill="#33abce" r="9.316143" cx="-90.44845"
+                class="id_Boldini" cy="-335.68228" stroke="#237790"
+                stroke-opacity="1.0" stroke-width="1.6201987"/>
+        <circle fill-opacity="1.0" fill="#f6d107" r="10.939303" cx="222.60757"
+                class="id_Rembrandt" cy="5.822712" stroke="#ac9204"
+                stroke-opacity="1.0" stroke-width="1.9024874"/>
+        <circle fill-opacity="1.0" fill="#dbf620" r="9.773685" cx="368.49335"
+                class="id_Rubens" cy="3.1445928" stroke="#99ac16"
+                stroke-opacity="1.0" stroke-width="1.6997714"/>
+        <circle fill-opacity="1.0" fill="#62c09d" r="9.473113" cx="412.5986"
+                class="id_Titian" cy="127.42702" stroke="#44866d"
+                stroke-opacity="1.0" stroke-width="1.6474978"/>
+        <circle fill-opacity="1.0" fill="#30aad1" r="9.336955" cx="253.38283"
+                class="id_Crome" cy="-281.86392" stroke="#217692"
+                stroke-opacity="1.0" stroke-width="1.6238182"/>
+        <circle fill-opacity="1.0" fill="#80cd7e" r="9.79473" cx="60.92781"
+                class="id_Ruisdael" cy="-141.08023" stroke="#598f58"
+                stroke-opacity="1.0" stroke-width="1.7034314"/>
+        <circle fill-opacity="1.0" fill="#5bbda4" r="9.487947" cx="298.8454"
+                class="id_Maes" cy="53.593235" stroke="#3f8472"
+                stroke-opacity="1.0" stroke-width="1.6500778"/>
+        <circle fill-opacity="1.0" fill="#82ce7d" r="9.780885" cx="62.425457"
+                class="id_Ostade" cy="-184.89401" stroke="#5b9057"
+                stroke-opacity="1.0" stroke-width="1.7010233"/>
+        <circle fill-opacity="1.0" fill="#59bca6" r="9.670046" cx="-0.48733434"
+                class="id_Holbein" cy="-259.56967" stroke="#3e8374"
+                stroke-opacity="1.0" stroke-width="1.6817471"/>
+        <circle fill-opacity="1.0" fill="#38adc9" r="9.28722" cx="546.5874"
+                class="id_Bellini" cy="197.97314" stroke="#27798c"
+                stroke-opacity="1.0" stroke-width="1.6151687"/>
+        <circle fill-opacity="1.0" fill="#59bca6" r="9.670046" cx="-24.739529"
+                class="id_Vinci" cy="-315.6057" stroke="#3e8374"
+                stroke-opacity="1.0" stroke-width="1.6817471"/>
+        <circle fill-opacity="1.0" fill="#58bca7" r="9.433232" cx="44.17491"
+                class="id_Mantegna" cy="332.44092" stroke="#3d8374"
+                stroke-opacity="1.0" stroke-width="1.640562"/>
+        <circle fill-opacity="1.0" fill="#84cf7b" r="9.586022" cx="433.3207"
+                class="id_Cuyp" cy="77.91288" stroke="#5c9056"
+                stroke-opacity="1.0" stroke-width="1.6671342"/>
+        <circle fill-opacity="1.0" fill="#d5f327" r="9.832197" cx="78.40449"
+                class="id_Russell" cy="216.03328" stroke="#95aa1b"
+                stroke-opacity="1.0" stroke-width="1.7099473"/>
+        <circle fill-opacity="1.0" fill="#7ecd80" r="9.803649" cx="-28.32902"
+                class="id_Dore" cy="-136.01218" stroke="#588f59"
+                stroke-opacity="1.0" stroke-width="1.7049824"/>
+        <circle fill-opacity="1.0" fill="#b0e34d" r="9.866221" cx="-80.669624"
+                class="id_Menzel" cy="-209.98174" stroke="#7b9e35"
+                stroke-opacity="1.0" stroke-width="1.7158645"/>
+        <circle fill-opacity="1.0" fill="#f2e80a" r="10.503244" cx="54.986443"
+                class="id_Delacroix" cy="52.22294" stroke="#a9a207"
+                stroke-opacity="1.0" stroke-width="1.8266511"/>
+        <circle fill-opacity="1.0" fill="#2fa9d2" r="9.377848" cx="324.71347"
+                class="id_Correggio" cy="-150.77892" stroke="#207693"
+                stroke-opacity="1.0" stroke-width="1.63093"/>
+        <circle fill-opacity="1.0" fill="#a9df54" r="9.894187" cx="17.643772"
+                class="id_Gavarni" cy="-48.985" stroke="#769c3a"
+                stroke-opacity="1.0" stroke-width="1.7207282"/>
+        <circle fill-opacity="1.0" fill="#d3f229" r="10.032849" cx="45.051144"
+                class="id_Daumier" cy="-12.318411" stroke="#93a91c"
+                stroke-opacity="1.0" stroke-width="1.7448432"/>
+        <circle fill-opacity="1.0" fill="#58bca7" r="9.446923" cx="-107.35248"
+                class="id_Rops" cy="-13.64397" stroke="#3d8374"
+                stroke-opacity="1.0" stroke-width="1.642943"/>
+        <circle fill-opacity="1.0" fill="#f2e709" r="10.222427" cx="54.151184"
+                class="id_Bernard" cy="156.6436" stroke="#a9a106"
+                stroke-opacity="1.0" stroke-width="1.7778134"/>
+        <circle fill-opacity="1.0" fill="#2ea9d3" r="9.56935" cx="-141.48575"
+                class="id_Lefebvre" cy="-131.24327" stroke="#207693"
+                stroke-opacity="1.0" stroke-width="1.6642348"/>
+        <circle fill-opacity="1.0" fill="#59bca7" r="9.4282675" cx="418.32965"
+                class="id_Chardin" cy="-22.726992" stroke="#3e8374"
+                stroke-opacity="1.0" stroke-width="1.6396986"/>
+        <circle fill-opacity="1.0" fill="#34accc" r="9.294645" cx="-198.83064"
+                class="id_Steen" cy="114.070885" stroke="#24788e"
+                stroke-opacity="1.0" stroke-width="1.6164601"/>
+        <circle fill-opacity="1.0" fill="#8bd273" r="9.745128" cx="109.36796"
+                class="id_Frank" cy="-292.30334" stroke="#619350"
+                stroke-opacity="1.0" stroke-width="1.6948048"/>
+        <circle fill-opacity="1.0" fill="#82ce7d" r="9.780407" cx="-76.964355"
+                class="id_Goya" cy="-79.74429" stroke="#5b9057"
+                stroke-opacity="1.0" stroke-width="1.7009404"/>
+        <circle fill-opacity="1.0" fill="#80cd7e" r="9.788359" cx="-51.648693"
+                class="id_Michelangelo" cy="-102.19078" stroke="#598f58"
+                stroke-opacity="1.0" stroke-width="1.7023233"/>
+        <circle fill-opacity="1.0" fill="#2fa9d2" r="9.377848" cx="302.05087"
+                class="id_Pyle" cy="-183.25232" stroke="#207693"
+                stroke-opacity="1.0" stroke-width="1.63093"/>
+        <circle fill-opacity="1.0" fill="#5bbda4" r="9.487947" cx="274.21362"
+                class="id_Vermeer" cy="36.635418" stroke="#3f8472"
+                stroke-opacity="1.0" stroke-width="1.6500778"/>
+        <circle fill-opacity="1.0" fill="#89d175" r="9.568258" cx="-17.033567"
+                class="id_Courbet" cy="57.352737" stroke="#5f9251"
+                stroke-opacity="1.0" stroke-width="1.6640449"/>
+        <circle fill-opacity="1.0" fill="#32abce" r="9.31618" cx="-212.31857"
+                class="id_Gilbert" cy="-316.72974" stroke="#237790"
+                stroke-opacity="1.0" stroke-width="1.6202052"/>
+        <circle fill-opacity="1.0" fill="#59bca6" r="9.6762905" cx="125.08119"
+                class="id_Whistler" cy="-343.26953" stroke="#3e8374"
+                stroke-opacity="1.0" stroke-width="1.6828331"/>
+        <circle fill-opacity="1.0" fill="#2ea9d3" r="9.56935" cx="126.1878"
+                class="id_Gericault" cy="-26.958736" stroke="#207693"
+                stroke-opacity="1.0" stroke-width="1.6642348"/>
+        <circle fill-opacity="1.0" fill="#35accc" r="9.30694" cx="114.621056"
+                class="id_Dadd" cy="-461.76788" stroke="#25788e"
+                stroke-opacity="1.0" stroke-width="1.6185983"/>
+        <circle fill-opacity="1.0" fill="#2fa9d2" r="9.4383135" cx="99.71319"
+                class="id_Boulanger" cy="272.30954" stroke="#207693"
+                stroke-opacity="1.0" stroke-width="1.6414458"/>
+        <circle fill-opacity="1.0" fill="#2fa9d2" r="9.399758" cx="360.19363"
+                class="id_Murillo" cy="130.06194" stroke="#207693"
+                stroke-opacity="1.0" stroke-width="1.6347406"/>
+        <circle fill-opacity="1.0" fill="#2ea9d3" r="9.56935" cx="-25.198181"
+                class="id_Bracquemond" cy="-49.003006" stroke="#207693"
+                stroke-opacity="1.0" stroke-width="1.6642348"/>
+        <circle fill-opacity="1.0" fill="#57bba9" r="9.678557" cx="-8.17084"
+                class="id_Manet" cy="-76.2394" stroke="#3c8276"
+                stroke-opacity="1.0" stroke-width="1.6832273"/>
+        <circle fill-opacity="1.0" fill="#2ea9d3" r="9.56935" cx="114.93278"
+                class="id_Liebermann" cy="-233.24625" stroke="#207693"
+                stroke-opacity="1.0" stroke-width="1.6642348"/>
+        <circle fill-opacity="1.0" fill="#5ebea2" r="9.430665" cx="-59.900486"
+                class="id_Eyck" cy="292.58878" stroke="#418571"
+                stroke-opacity="1.0" stroke-width="1.6401156"/>
+        <circle fill-opacity="1.0" fill="#58bca7" r="9.53734" cx="156.25438"
+                class="id_Giotto" cy="197.73288" stroke="#3d8374"
+                stroke-opacity="1.0" stroke-width="1.6586679"/>
+        <circle fill-opacity="1.0" fill="#59bca7" r="9.495749" cx="371.13492"
+                class="id_Watteau" cy="72.79849" stroke="#3e8374"
+                stroke-opacity="1.0" stroke-width="1.6514345"/>
+        <circle fill-opacity="1.0" fill="#58bba8" r="9.511804" cx="1.9660182"
+                class="id_Chavannes" cy="122.47279" stroke="#3d8275"
+                stroke-opacity="1.0" stroke-width="1.6542267"/>
+        <circle fill-opacity="1.0" fill="#80cd7f" r="9.788922" cx="-66.738266"
+                class="id_Cabanel" cy="-131.82735" stroke="#598f58"
+                stroke-opacity="1.0" stroke-width="1.7024212"/>
+        <circle fill-opacity="1.0" fill="#abe052" r="9.737485" cx="99.21175"
+                class="id_Monet" cy="222.61908" stroke="#779c39"
+                stroke-opacity="1.0" stroke-width="1.6934756"/>
+        <circle fill-opacity="1.0" fill="#2ea9d3" r="9.56935" cx="-125.848015"
+                class="id_Poussin" cy="-180.49046" stroke="#207693"
+                stroke-opacity="1.0" stroke-width="1.6642348"/>
+        <circle fill-opacity="1.0" fill="#81ce7d" r="9.606851" cx="427.99722"
+                class="id_Boucher" cy="36.907112" stroke="#5a9057"
+                stroke-opacity="1.0" stroke-width="1.6707567"/>
+        <circle fill-opacity="1.0" fill="#32aacf" r="9.311102" cx="471.9157"
+                class="id_Jordaens" cy="0.43901896" stroke="#237690"
+                stroke-opacity="1.0" stroke-width="1.6193221"/>
+        <circle fill-opacity="1.0" fill="#84cf7b" r="9.629546" cx="160.13574"
+                class="id_Degas" cy="236.31607" stroke="#5c9056"
+                stroke-opacity="1.0" stroke-width="1.6747036"/>
+        <circle fill-opacity="1.0" fill="#80cd7e" r="9.6455555" cx="110.22571"
+                class="id_Guillaumin" cy="195.62605" stroke="#598f58"
+                stroke-opacity="1.0" stroke-width="1.6774879"/>
+        <circle fill-opacity="1.0" fill="#2fa9d2" r="9.4383135" cx="52.729443"
+                class="id_Signac" cy="229.70836" stroke="#207693"
+                stroke-opacity="1.0" stroke-width="1.6414458"/>
+        <circle fill-opacity="1.0" fill="#d4f328" r="9.870974" cx="65.15676"
+                class="id_Monticelli" cy="185.2532" stroke="#94aa1c"
+                stroke-opacity="1.0" stroke-width="1.7166911"/>
+        <circle fill-opacity="1.0" fill="#fbb202" r="11.429499" cx="98.742165"
+                class="id_Gauguin" cy="141.4689" stroke="#af7c01"
+                stroke-opacity="1.0" stroke-width="1.987739"/>
+        <circle fill-opacity="1.0" fill="#81ce7d" r="9.638046" cx="128.50368"
+                class="id_Pissarro" cy="185.49356" stroke="#5a9057"
+                stroke-opacity="1.0" stroke-width="1.6761819"/>
+        <circle fill-opacity="1.0" fill="#59bca7" r="9.422841" cx="91.34752"
+                class="id_Renoir" cy="331.6305" stroke="#3e8374"
+                stroke-opacity="1.0" stroke-width="1.638755"/>
+        <circle fill-opacity="1.0" fill="#2fa9d2" r="9.4383135" cx="148.74597"
+                class="id_Sisley" cy="354.26764" stroke="#207693"
+                stroke-opacity="1.0" stroke-width="1.6414458"/>
+        <circle fill-opacity="1.0" fill="#82ce7d" r="9.636968" cx="138.71242"
+                class="id_Seurat" cy="212.38754" stroke="#5b9057"
+                stroke-opacity="1.0" stroke-width="1.6759944"/>
+        <circle fill-opacity="1.0" fill="#5ebea2" r="9.430665" cx="-92.543625"
+                class="id_Cranach" cy="340.6521" stroke="#418571"
+                stroke-opacity="1.0" stroke-width="1.6401156"/>
+        <circle fill-opacity="1.0" fill="#30aad1" r="9.365571" cx="-130.58046"
+                class="id_Raphael" cy="142.54306" stroke="#217692"
+                stroke-opacity="1.0" stroke-width="1.628795"/>
+        <circle fill-opacity="1.0" fill="#30aad1" r="9.365571" cx="-42.775604"
+                class="id_Botticelli" cy="96.43068" stroke="#217692"
+                stroke-opacity="1.0" stroke-width="1.628795"/>
+        <circle fill-opacity="1.0" fill="#58bba8" r="9.464236" cx="-4.202505"
+                class="id_Cimabue" cy="278.64957" stroke="#3d8275"
+                stroke-opacity="1.0" stroke-width="1.6459541"/>
+        <circle fill-opacity="1.0" fill="#31aad0" r="9.346231" cx="-27.910727"
+                class="id_Goes" cy="344.53757" stroke="#227691"
+                stroke-opacity="1.0" stroke-width="1.6254315"/>
+        <circle fill-opacity="1.0" fill="#2fa9d2" r="9.4383135" cx="35.725456"
+                class="id_Cezanne" cy="209.55406" stroke="#207693"
+                stroke-opacity="1.0" stroke-width="1.6414458"/>
+        <circle fill-opacity="1.0" fill="#31aad0" r="9.346231" cx="-23.8157"
+                class="id_Hokusai" cy="229.66809" stroke="#227691"
+                stroke-opacity="1.0" stroke-width="1.6254315"/>
+        <circle fill-opacity="1.0" fill="#2fa9d2" r="9.4383135" cx="145.33029"
+                class="id_Maurin" cy="295.5757" stroke="#207693"
+                stroke-opacity="1.0" stroke-width="1.6414458"/>
+        <circle fill-opacity="1.0" fill="#54baac" r="9.638072" cx="148.04605"
+                class="id_Haan" cy="115.14962" stroke="#3a8278"
+                stroke-opacity="1.0" stroke-width="1.6761863"/>
+    </g>
+</svg>
