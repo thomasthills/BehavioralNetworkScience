@@ -5,7 +5,7 @@
 This page provides the R code for the book _Behavioral Network Science: Language, Mind, and Society_ (Cambridge University Press) by Thomas T. Hills.  
 
 *Part I* is a useful place to start for those unfamiliar with network science.
-*Part II-IV* focus on specific methodologies and topics.
+*Part II-IV* focus on specific methodologies and topics associated with language, mind, and society, respectively.
 
 Here is a list of chapters.
     
