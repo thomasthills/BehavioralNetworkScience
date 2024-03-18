@@ -2,12 +2,12 @@
 
 <img src="./vanGogh5.svg" alt="image" width="300" height="auto">
 
-This page provides resources for replicating figures and simulations in the book _Behavioral Network Science: Language, Mind, and Society_ (Cambridge University Press) by Thomas T. Hills.  
+This page provides resources for replicating figures and simulations in _Behavioral Network Science: Language, Mind, and Society_ (Cambridge University Press) by Thomas T. Hills.  
 
 This includes the R code and data. You can clone the repository to get the code. See bottom to get a link for the data.
 
 *Part I* is a useful place to start for those unfamiliar with network science.
-*Part II-IV* focus on specific methodologies and topics associated with language, mind, and society, respectively.
+*Part II-IV* focus on specific methodologies and topics associated with language, mind, and society.
 
 Here is a list of chapters.
     
