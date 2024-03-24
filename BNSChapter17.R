@@ -15,31 +15,14 @@ knitr::opts_chunk$set(warning = FALSE)
 
 rm(list=ls())
 
-#library(osfr)
-##library(statgraph)
-#library(DiagrammeR)
 library(tinytex)
 library(igraph)
-#library(gridExtra)
-#library(grid)
 library(tidyverse)
-#library(igraphdata)
 library(kableExtra)
-#library(latex2exp)
-#library(scales)
-#library(cowplot)
-#library(nlme)
-#library(gridGraphics)
-#library(fitdistrplus)
-#library(RColorBrewer)
 library(BayesFactor)
-#library(ggpubr)
-#library(stargazer)
 library(Rmisc)
-#library(corrplot)
 library(ggraph)
 library(quanteda)
-#library(lsa)
 
 
 # Code here is adapted from 
@@ -485,7 +468,7 @@ kable(df,row.names=FALSE, booktabs = T, escape = FALSE, caption = "Values of con
 ##  library(tidyverse)
 ##  library(igraph)
 ## 
-## ## get data
+## ## Get data
 ## rm(list=ls())
 ## rd <- read.csv("SampleDataFilesBNS/vangogh/formatted_letters_Aug2021_formattedForExcelEvenRows.csv", header = T)
 ## # Only letters from Van Gogh
