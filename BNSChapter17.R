@@ -25,7 +25,7 @@ library(ggraph)
 library(quanteda)
 
 
-# Code here is adapted from 
+# Code for Figure 17.1 and 17.2 are adapted from 
 # Miani, A., Hills, T., & Bangerter, A. (2022b). LOCO: The 88-million-word language of conspiracy corpus. Behavior Research Methods, 54, 1794–1817.
 
 #### Load data ####
