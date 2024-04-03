@@ -450,6 +450,9 @@ for(lage in 1:ageEpochs){
   gle <- igraph::subgraph(gle, 1:ageWords)
   # Get node count
   nodeCount[lage] <- length(V(gle))
+  # Remove negative edges
+  negEdges <- which(E(gle)$weight < 0)
+  gle <- igraph::delete_edges(gle, negEdges)
   # Save network
   ageNetworkList[[lage]] <- gle
   # Rename
