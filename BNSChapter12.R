@@ -373,7 +373,7 @@ rescorlaWagner <- function(vmat = vmat, cue, outcome, alpha=1, beta=.2) {
 }
 
 # Set random number seed
-set.seed(1)
+set.seed(3)
 # Set parameters
 wordsInWorld=1000
 Associates = 2000
@@ -399,7 +399,7 @@ for(agee in 1:ageEpochs){
   ageWords <- round(wordsInWorld*y[agee]/y[length(y)])
   iis <- subgraph(ii, 1:ageWords) 
   # Plot subgraph
-  plot(iis, vertex.size = 1, edge.arrow.size = 0, vertex.label = NA, layout = layout_with_fr(iis))
+  plot(iis, vertex.size = 1, edge.arrow.size = 0, vertex.label = NA, layout = layout_with_fr(iis, dim=2, niter=30, start.temp = .5))
   # Label
   if(agee == 1){
     text(0, 1.5, "Experienced lexicon")
@@ -472,7 +472,7 @@ for(lage in 1:ageEpochs){
   # Set edge weights 1
   E(g2)$weight <- 1
   # Plot
-  plot(g2, vertex.size = 1, edge.arrow.size = 0, vertex.label=NA, layout=layout_with_fr(g2))
+  plot(g2, vertex.size = 1, edge.arrow.size = 0, vertex.label=NA, layout=layout_with_fr(g2, dim=2, niter=30, start.temp = .5))
   if(lage == 1){
     text(0, 1.5, "Learned lexicon")
   }
@@ -520,7 +520,7 @@ x <- 1:ageEpochs
 plot(x, edgeE[1:ageEpochs], xlab = "Age", ylab = "Entropy", type = "b", cex.lab = 1.4)
 
 # Set random number seed
-set.seed(2)
+set.seed(5)
 ## Choose random pairs from first training data (firstttraindata)
 learningPairs = 20 # This number can be bigger
 simpair <- firsttraindata[sample(seq(1:nrow(firsttraindata)), learningPairs ),]
