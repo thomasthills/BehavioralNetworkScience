@@ -5,10 +5,15 @@
 
 # Code to reproduce figures and analyses for
 
-#### Chapter 12 ####
+#### Chapter 12 Age-Related Cognitive Decline: A Network Enrichment Account ####
 
 # Age-Related Cognitive Decline: A Network Enrichment Account
 
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+knitr::opts_chunk$set(comment = NA)
+knitr::opts_chunk$set(warning = FALSE)
+options(knitr.table.format = "latex")
 
 rm(list=ls())
  library(DiagrammeR)
@@ -322,7 +327,7 @@ grViz(diagram = "digraph flowchart {
   
   [1]: 'Environment'
   [2]: 'Representation'    
-  [3]: 'behavior'    
+  [3]: 'Behavior'    
   ")
 
 
@@ -368,14 +373,14 @@ rescorlaWagner <- function(vmat = vmat, cue, outcome, alpha=1, beta=.2) {
 }
 
 # Set random number seed
-set.seed(2)
+set.seed(1)
 # Set parameters
 wordsInWorld=1000
 Associates = 2000
 learningEvents <- 400 
 ageEpochs = 4
 x <- 1:wordsInWorld
-a = .1
+a = 1
 pairs <- c()
 for(i in 1:Associates){
   # Create random associates: Rank based network
@@ -460,7 +465,8 @@ for(lage in 1:ageEpochs){
   # Compute entropy
   node_entropy <- entropy(ww) 
   # Get median entropy
-  edgeE[lage] <- median(node_entropy)
+  #edgeE[lage] <- median(node_entropy)
+  edgeE[lage] <- mean(node_entropy)
   # Remove small values for plotting purposes
   g2 <- igraph::delete.edges(gle, which(E(gle)$weight <=0.0)) # very small values push this graph apart
   # Set edge weights 1
