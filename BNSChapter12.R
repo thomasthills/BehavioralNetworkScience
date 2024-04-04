@@ -467,7 +467,7 @@ for(lage in 1:ageEpochs){
   entropy <- function(p) rowSums(-(p * log(p)), na.rm = TRUE)
   # Compute entropy
   node_entropy <- entropy(ww) 
-  # Get median entropy
+  # Get mean entropy
   #edgeE[lage] <- median(node_entropy)
   edgeE[lage] <- mean(node_entropy)
   # Remove small values for plotting purposes
