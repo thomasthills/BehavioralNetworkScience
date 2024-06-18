@@ -11,7 +11,7 @@ options(knitr.table.format = "latex")
 
 # Code to reproduce figures and analyses for
 
-#### Chapter 16  The Segregation of Belief ####
+#### Chapter 16 -- The Segregation of Belief: How Structure Facilitates False Consensus ####
 
 rm(list=ls()) # mental hygiene
 library(tinytex)
