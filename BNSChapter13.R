@@ -5,7 +5,7 @@
 
 # Code to reproduce figures and analyses for
 
-#### Chapter 13 Creativity: How Noisy Processes Create Novel Structure ####
+#### Chapter 13 -- Creativity: How Noisy Processes Create Novel Structure ####
 
 knitr::opts_chunk$set(echo = FALSE)
 knitr::opts_chunk$set(message = FALSE)
