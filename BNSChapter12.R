@@ -5,7 +5,7 @@
 
 # Code to reproduce figures and analyses for
 
-#### Chapter 12 Age-Related Cognitive Decline: A Network Enrichment Account ####
+#### Chapter 12 -- Age-Related Cognitive Decline: A Network Enrichment Account ####
 
 # Age-Related Cognitive Decline: A Network Enrichment Account
 
