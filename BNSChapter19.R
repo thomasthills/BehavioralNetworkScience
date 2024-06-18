@@ -5,7 +5,7 @@
 
 # Code to reproduce figures and analyses for
 
-#### Chapter 19  Fund People Not Projects ####
+#### Chapter 19 -- Fund People Not Projects: A Universal Basic Income for Research ####
 
 
 knitr::opts_chunk$set(echo = FALSE)
