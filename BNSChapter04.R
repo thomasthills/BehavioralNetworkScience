@@ -10,7 +10,7 @@ options(knitr.table.format = "latex")
 
 # Code to reproduce figures and analyses for
 
-#### Chapter 4: Zipf's Law of Meaning: The Degree Distribution of the Mind ####
+#### Chapter 4 -- Zipf's Law of Meaning: The Degree Distribution of the Mind ####
 
 library(igraph)
 library(tidyverse)
