@@ -10,7 +10,7 @@ options(knitr.table.format = "latex")
 
 # Code to reproduce figures and analyses for
 
-#### Chapter 2 ####
+#### Chapter 2: Network Metrics ####
 
 library(igraph)
 library(tidyverse)
