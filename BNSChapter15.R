@@ -5,7 +5,7 @@
 
 # Code to reproduce figures and analyses for
 
-#### Chapter 15  Group Problem Solving ####
+#### Chapter 15 -- Group Problem Solving: Harnessing the Wisdom of the Crowds ####
 
 
 knitr::opts_chunk$set(echo = FALSE)
