@@ -5,7 +5,7 @@
 
 # Code to reproduce figures and analyses for
 
-#### Chapter 14  Network Illusions ####
+#### Chapter 14 -- Network Illusions: How Structure Misleads Us ####
 
 knitr::opts_chunk$set(echo = FALSE)
 knitr::opts_chunk$set(message = FALSE)
