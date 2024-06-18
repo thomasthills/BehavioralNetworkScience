@@ -4,7 +4,7 @@
 
 # Code to reproduce figures and analyses for
 
-#### Chapter 1 ####
+#### Chapter 1: Making and Recognizing Networks ####
 
 # To install packages remove the #, then put the # back after as this is only needed once. Then you can upload libraries locally below
 #install.packages('igraph')
