@@ -10,7 +10,7 @@ options(knitr.table.format = "latex")
 
 # Code to reproduce figures and analyses for
 
-#### Chapter 7 ####
+#### Chapter 7 -- The Small-World Spectrum: Using Small Worlds to Compare Networks ####
 rm(list=ls()) # to good health
 library(igraph)
 library(tidyverse)
