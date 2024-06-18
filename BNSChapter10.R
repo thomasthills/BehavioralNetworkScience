@@ -10,7 +10,7 @@ options(knitr.table.format = "latex")
 
 # Code to reproduce figures and analyses for
 
-#### Chapter 10 ####
+#### Chapter 10 -- False Memories: Spreading Activation in Memory Networks ####
 
 rm(list=ls()) # to health!
 library(igraph)
