@@ -10,7 +10,7 @@ options(knitr.table.format = "latex")
 
 # Code to reproduce figures and analyses for
 
-#### Chapter 5: Network Learning: Growing a Lexicon by Degrees ####
+#### Chapter 5 -- Network Learning: Growing a Lexicon by Degrees ####
 
 
 library(igraph)
