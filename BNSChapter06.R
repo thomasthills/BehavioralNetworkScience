@@ -10,7 +10,7 @@ options(knitr.table.format = "latex")
 
 # Code to reproduce figures and analyses for
 
-#### Chapter 6 ####
+#### Chapter 6 -- What is Distinctive: Exploring Edge Types in Multilayer Networks ####
 
 rm(list=ls())
 library(igraph)
