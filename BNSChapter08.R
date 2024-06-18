@@ -11,7 +11,7 @@ options(knitr.table.format = "latex")
 
 # Code to reproduce figures and analyses for
 
-#### Chapter 8 ####
+#### Chapter 8 -- The Birthplace of New Words: Identifying Node Origins ####
 
 rm(list=ls())
 library(tidytext)
