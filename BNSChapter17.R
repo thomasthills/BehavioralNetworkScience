@@ -5,7 +5,7 @@
 
 # Code to reproduce figures and analyses for
 
-#### Chapter 17  The Conspiracy Frame ####
+#### Chapter 17 -- The Conspiracy Frame: Coherence Through Self-Supporting Beliefs ####
 
 
 knitr::opts_chunk$set(echo = FALSE)
