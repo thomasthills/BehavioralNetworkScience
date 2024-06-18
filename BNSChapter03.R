@@ -10,7 +10,7 @@ options(knitr.table.format = "latex")
 
 # Code to reproduce figures and analyses for
 
-#### Chapter 3 ####
+#### Chapter 3: Generative Network Models and Network Evolution ####
 
 library(igraph)
 library(tidyverse)
