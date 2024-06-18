@@ -5,7 +5,7 @@
 
 # Code to reproduce figures and analyses for
 
-#### Chapter 11 ####
+#### Chapter 11 -- Cognitive Foraging: Exploration versus Exploitation ####
 
 knitr::opts_chunk$set(echo = FALSE)
 knitr::opts_chunk$set(message = FALSE)
