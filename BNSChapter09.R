@@ -11,7 +11,7 @@ options(knitr.table.format = "latex")
 
 # Code to reproduce figures and analyses for
 
-#### Chapter 9 ####
+#### Chapter 9 -- Agent-Based Models of Language Emergence: Structure Favors the Orangutan ####
 
 rm(list=ls()) # to health!
 library(igraph)
