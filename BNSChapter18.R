@@ -5,7 +5,7 @@
 
 # Code to reproduce figures and analyses for
 
-#### Chapter 18  The Kennedy Paradox ####
+#### Chapter 18 -- The Kennedy Paradox: Games of Conflict and Escalation ####
 
 
 knitr::opts_chunk$set(echo = FALSE)
