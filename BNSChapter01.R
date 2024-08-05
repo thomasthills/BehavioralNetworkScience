@@ -119,11 +119,8 @@ plot(gamloop, vertex.label = c(1:6), vertex.label.cex=1, vertex.color="white", l
 dev.off()
 
 # to remove the self loop
-# gamNoLoop <- gamloop %>% igraph::delete_edges('2|2')
-# notice the grammar is a bit odd. This is because each edge has a name.  So we need to get the edge id and delete that.
-# gamNoLoop <- gamloop %>% igraph::delete_edges(get.edge.ids(gamloop, c(2,2)))
-# plot network after self-loop removal
-# plot(gamNoLoop, vertex.label = c(1:6), vertex.label.cex=1, vertex.color="white", layout=l)
+which_loop(gamloop)
+gamloop <- simplify(gamloop, remove.loops = TRUE)
 
 # Copy the simple graph to a new graph object
 gw <- gs
