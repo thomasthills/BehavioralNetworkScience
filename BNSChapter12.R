@@ -22,6 +22,8 @@ rm(list=ls())
  library(kableExtra)
  library(Rmisc)
  library(network)
+ library(sna)
+
 
 
 #### Figure 12-1 ####
