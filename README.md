@@ -37,3 +37,5 @@ Here is a list of chapters.
 
 
 The data can be downloaded from https://warwick.ac.uk/fac/sci/psych/people/thills/thills/sampledatafilesbns.zip
+
+See Errata for corrections. 
