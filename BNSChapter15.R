@@ -52,7 +52,7 @@ X <- expand.grid(x = x, y = y)
 # Add together numerous random z-value matrices with different uniformly chosen peaks 
 for(i in 1: 1000){
   X <- transform(X, z = dnorm(x, runif(1), runif(1, .02, .1))*dnorm(y, runif(1), 
-                              runif(1, .02, .1)))
+                                                                    runif(1, .02, .1)))
   zadd <- matrix(X$z, nrow = 200)
   z <- z + zadd
 }
@@ -188,9 +188,9 @@ if (K==0){
   values <- replicate(N,round(runif(nrow(combinations),0,1),1))
   # fitness assigns K+1 combinations (rows) to N genome locations (columns, starting after K+1)
 }
-  # Fitness table: first two columns represent possible genome values for two elements
-  # Last three columsn indicate fitness values for the genome values starting from different positions in the genome
-  fitness <- cbind(combinations,values)
+# Fitness table: first two columns represent possible genome values for two elements
+# Last three columsn indicate fitness values for the genome values starting from different positions in the genome
+fitness <- cbind(combinations,values)
 
 
 
@@ -268,19 +268,19 @@ makeNKgraphs <- function(N,K){
   rownames(genomeGraph) <- c(gene.names)
   # For all genomes
   for(i in 1:nrow(genomeGraph)){
-   for(j in 1:ncol(genomeGraph)) {
-     landi <- landscape[landscape$gene.names==rownames(genomeGraph)[i],]
-     landj <- landscape[landscape$gene.names==rownames(genomeGraph)[j],]
-     # Check distance
-     distance <- sum(abs(landj[1:N]-landi[1:N]))
-     # If distance is one, point arrow from lowest to highest 
-     # Since this compares all pairs in both directions, it gets it right
-     if(distance == 1){
-       if(landi$fitness.score < landj$fitness.score){
-        genomeGraph[i,j] <- 1
-       }
-     }
-   }
+    for(j in 1:ncol(genomeGraph)) {
+      landi <- landscape[landscape$gene.names==rownames(genomeGraph)[i],]
+      landj <- landscape[landscape$gene.names==rownames(genomeGraph)[j],]
+      # Check distance
+      distance <- sum(abs(landj[1:N]-landi[1:N]))
+      # If distance is one, point arrow from lowest to highest 
+      # Since this compares all pairs in both directions, it gets it right
+      if(distance == 1){
+        if(landi$fitness.score < landj$fitness.score){
+          genomeGraph[i,j] <- 1
+        }
+      }
+    }
   } 
   
   # Make graph from edges above 
@@ -339,6 +339,7 @@ N=15; K=10 #NK PARAMETERS
 n.agents=30 #NO. AGENTS
 tsteps=150 #NO. TIME STEPS. 
 repetitions = 200 
+repetitions = 200 
 #### Make networks
 nets <- list()
 nets[[1]] <-  make_full_graph(n.agents)
@@ -379,130 +380,130 @@ netdata_perf <- list() # Store data here
 netdata_div <- list() # Store data herej
 # Each repetition we run through each network
 for (rep in 1:repetitions){ 
-    # Reset landscape every 10 repetitions---randomize landscapes
-    if(rep %% 10 == 0){
-      if (K==0){
-        depends <- as.vector(1:N)
-        values <- replicate(N,round(runif(2,0,1),1))
-        fitness <- values
-      } else {
-        # 'depends' determines which other bits the kth bit depends on
-        depends <- rbind(1:N,replicate(N,sample(c(1:N),K,replace=F)))
-        depends2 <- rbind(1:N,replicate(N,sample(c(1:N),K,replace=F))) # 2nd Env
-        # Combinations: possible arrangements of bits for each value
-        combinations <- permutations(2,K+1,v=c(0,1),repeats.allowed=TRUE)
-        # Random fitness values for each arrangement in each position
-        values <- replicate(N,round(runif(nrow(combinations),0,1),1))
-        # Fitness assigns K+1 combinations (rows) to N genome locations (columns, starting after K+1)
-        fitness <- cbind(combinations,values)
-      }
-      # Make landscape
-      landscape1 <- generate_landscape(N,K,LS,fitness,depends) #  computes fitness for all possible genomes ahead of time bsased on values above
-      landscape1[,N+1] <- (landscape1[,N+1]/max(landscape1[,N+1]))^8 # take fitness to 8th power
-      gene.names <- sapply(1:nrow(landscape1), function(x) paste(landscape1[x,1:N], collapse=""))
-      landscape1 <-cbind(landscape1, gene.names)
+  # Reset landscape every 10 repetitions---randomize landscapes
+  if(rep %% 10 == 0){
+    if (K==0){
+      depends <- as.vector(1:N)
+      values <- replicate(N,round(runif(2,0,1),1))
+      fitness <- values
+    } else {
+      # 'depends' determines which other bits the kth bit depends on
+      depends <- rbind(1:N,replicate(N,sample(c(1:N),K,replace=F)))
+      depends2 <- rbind(1:N,replicate(N,sample(c(1:N),K,replace=F))) # 2nd Env
+      # Combinations: possible arrangements of bits for each value
+      combinations <- permutations(2,K+1,v=c(0,1),repeats.allowed=TRUE)
+      # Random fitness values for each arrangement in each position
+      values <- replicate(N,round(runif(nrow(combinations),0,1),1))
+      # Fitness assigns K+1 combinations (rows) to N genome locations (columns, starting after K+1)
+      fitness <- cbind(combinations,values)
     }
-    for (net in 1:length(nets)){
-      # Set data collectors for performance and diversity
-      total.perftime  <- matrix(0,ncol=tsteps, nrow = repetitions)
-      total.diversity <- matrix(0,ncol=tsteps, nrow = repetitions)
-      
-      # Reset agents  : #ALLOCATE RANDOM STARTING POSITIONS
-      agents<-list()
-      agents[[1]] <- landscape1[sample(1:(2^N),n.agents,replace=F),] # sample from possible genomes (2^N) and get fitness alongside
-      # reset networks for annealing graphs
-      if(net==4){
+    # Make landscape
+    landscape1 <- generate_landscape(N,K,LS,fitness,depends) #  computes fitness for all possible genomes ahead of time bsased on values above
+    landscape1[,N+1] <- (landscape1[,N+1]/max(landscape1[,N+1]))^8 # take fitness to 8th power
+    gene.names <- sapply(1:nrow(landscape1), function(x) paste(landscape1[x,1:N], collapse=""))
+    landscape1 <-cbind(landscape1, gene.names)
+  }
+  for (net in 1:length(nets)){
+    # Set data collectors for performance and diversity
+    total.perftime  <- matrix(0,ncol=tsteps, nrow = repetitions)
+    total.diversity <- matrix(0,ncol=tsteps, nrow = repetitions)
+    
+    # Reset agents  : #ALLOCATE RANDOM STARTING POSITIONS
+    agents<-list()
+    agents[[1]] <- landscape1[sample(1:(2^N),n.agents,replace=F),] # sample from possible genomes (2^N) and get fitness alongside
+    # reset networks for annealing graphs
+    if(net==4){
       nets[[4]] <- make_empty_graph(n.agents, directed=FALSE) # 
-      }
-      if(net==5){
+    }
+    if(net==5){
       nets[[5]] <- make_empty_graph(n.agents, directed=FALSE) # 
+    }
+    
+    
+    #FOR EACH TIME STEP find best neighbor or explore
+    for (i in 2:tsteps){
+      # Bring forward genomes
+      agents[[i]] <- agents[[i-1]]
+      # Identify neighbors for each node
+      samples <- lapply(1:n.agents, function(x) as.vector(neighbors(nets[[net]],x)))
+      # Make dummy vector for individual learning, updated below
+      ind.learn<-vector(length=n.agents) 
+      # Replacements for social learning, so we don't copy over one another during replacement
+      agents2 <- agents[[i]] 
+      # For each agent
+      for (j in 1:n.agents){
+        payoffs <- agents[[i]][samples[[j]],'fitness.score'] # Get fitness of neighbors 
+        if(length(payoffs) > 0){
+          best<-which(payoffs==max(payoffs)) # Which of sample has highest payoff
+          if(length(best)>1) best <- sample(best,1) # If there's a tie in highest payoff, sample randomly
+          
+          ## If this were partial copying, this is where it would happen
+          ## At present, copying is complete
+          agents2[j,] <- agents[[i]][samples[[j]][best],] # Adopt choice of best member
+        } 
+        if(agents2[j,'fitness.score']<=agents[[i-1]][j,'fitness.score']){ # If payoff worse or equal, learn individually
+          ind.learn[j] <- j
+        }
       }
-
-        
-        #FOR EACH TIME STEP find best neighbor or explore
-        for (i in 2:tsteps){
-          # Bring forward genomes
-          agents[[i]] <- agents[[i-1]]
-          # Identify neighbors for each node
-          samples <- lapply(1:n.agents, function(x) as.vector(neighbors(nets[[net]],x)))
-          # Make dummy vector for individual learning, updated below
-          ind.learn<-vector(length=n.agents) 
-          # Replacements for social learning, so we don't copy over one another during replacement
-          agents2 <- agents[[i]] 
-          # For each agent
-          for (j in 1:n.agents){
-            payoffs <- agents[[i]][samples[[j]],'fitness.score'] # Get fitness of neighbors 
-            if(length(payoffs) > 0){
-              best<-which(payoffs==max(payoffs)) # Which of sample has highest payoff
-              if(length(best)>1) best <- sample(best,1) # If there's a tie in highest payoff, sample randomly
-           
-            ## If this were partial copying, this is where it would happen
-            ## At present, copying is complete
-              agents2[j,] <- agents[[i]][samples[[j]][best],] # Adopt choice of best member
-            } 
-            if(agents2[j,'fitness.score']<=agents[[i-1]][j,'fitness.score']){ # If payoff worse or equal, learn individually
-              ind.learn[j] <- j
-            }
-          }
-          # Reduce ind.learn list to index for self-learners (explorers) 
-          ind.learn<-ind.learn[ind.learn!=0]
-          # Replace those who have a better neighbor
-          no.learn <- setdiff(1:n.agents,ind.learn) # Removes all ind.learn from list
-          if(length(no.learn)>0){
-            agents[[i]][no.learn,] <- agents2[no.learn,] # Assigns learned best from above 
-          }
-          #IMPLEMENT INDIVIDUAL LEARNING
-          if(length(ind.learn)>=1){
-            for (n in c(ind.learn)){
-              # Copy the genome
-              gene_buffer <- agents[[i-1]][n,1:N]
-              # flip one bit
-              # sample bit
-              bit <- sample(1:N, 1)
-              # flip it
-              gene_buffer[bit] <- ifelse(gene_buffer[bit]==1, 0, 1) 
-              # Fix name
-              gene_buffer.name <- paste(gene_buffer, collapse="")
-              # Recompute fitness
-                gene_buffer.fitness <- landscape1[which(landscape1$gene.names==gene_buffer.name),'fitness.score']
-            }
-              # Replace the original
-              agents[[i]][n,] <- data.frame(gene_buffer, fitness.score=gene_buffer.fitness, gene.names = gene_buffer.name)
-          }
-          #COMPARE PAYOFFS AFTER LEARNING AND DECIDE WHETHER OR NOT TO SWITCH
-          switching <- ifelse(agents[[i-1]][,'fitness.score'] < agents[[i]][,'fitness.score'],1,0)*1:n.agents
-          not.switching <- setdiff(1:n.agents,switching[switching!=0])
-          agents[[i]][not.switching,] <- agents[[i-1]][not.switching,] # Those who didn't improve stay the same
-          if(net==4){ # Annealing network
-             if(runif(1)<=1){ # Always add an edge
-             nets[[net]] <- nets[[net]] %>% igraph::add.edges(sample(1:n.agents,2))
-             nets[[net]]<-igraph::simplify(nets[[net]])
-             }
-          }
-          if(net==5){ # Second annealing network
-             if(runif(1)<=.75){
-             nets[[net]] <- nets[[net]] %>% igraph::add.edges(sample(1:n.agents,2))
-             nets[[net]]<-igraph::simplify(nets[[net]])
-             }
-          }
-        } # End each time step here
-        # Average of fitness 
-        perf.time <- sapply(1:tsteps, function(x) mean(agents[[x]][,'fitness.score'])) 
-        # Number of unique genomes
-        diversity <- sapply(1:tsteps, function(x) nrow(unique(agents[[x]]))) 
-      # Record results 
-      if (rep == 1){
-        netdata_perf[[net]] <- perf.time
-        netdata_div[[net]] <- diversity
-      } else {
-        netdata_perf[[net]] <- rbind(netdata_perf[[net]], perf.time)
-        netdata_div[[net]] <- rbind(netdata_div[[net]], diversity)
+      # Reduce ind.learn list to index for self-learners (explorers) 
+      ind.learn<-ind.learn[ind.learn!=0]
+      # Replace those who have a better neighbor
+      no.learn <- setdiff(1:n.agents,ind.learn) # Removes all ind.learn from list
+      if(length(no.learn)>0){
+        agents[[i]][no.learn,] <- agents2[no.learn,] # Assigns learned best from above 
       }
-        
-    }      # End each network repetition here
-
-  } # End group of repetitions here
+      #IMPLEMENT INDIVIDUAL LEARNING
+      if(length(ind.learn)>=1){
+        for (n in c(ind.learn)){
+          # Copy the genome
+          gene_buffer <- agents[[i-1]][n,1:N]
+          # flip one bit
+          # sample bit
+          bit <- sample(1:N, 1)
+          # flip it
+          gene_buffer[bit] <- ifelse(gene_buffer[bit]==1, 0, 1) 
+          # Fix name
+          gene_buffer.name <- paste(gene_buffer, collapse="")
+          # Recompute fitness
+          gene_buffer.fitness <- landscape1[which(landscape1$gene.names==gene_buffer.name),'fitness.score']
+        # Replace the original
+        agents[[i]][n,] <- data.frame(gene_buffer, fitness.score=gene_buffer.fitness, gene.names = gene_buffer.name)
+        }
+      }
+      #COMPARE PAYOFFS AFTER LEARNING AND DECIDE WHETHER OR NOT TO SWITCH
+      switching <- ifelse(agents[[i-1]][,'fitness.score'] < agents[[i]][,'fitness.score'],1,0)*1:n.agents
+      not.switching <- setdiff(1:n.agents,switching[switching!=0])
+      agents[[i]][not.switching,] <- agents[[i-1]][not.switching,] # Those who didn't improve stay the same
+      if(net==4){ # Annealing network
+        if(runif(1)<=1){ # Always add an edge
+          nets[[net]] <- nets[[net]] %>% igraph::add.edges(sample(1:n.agents,2))
+          nets[[net]]<-igraph::simplify(nets[[net]])
+        }
+      }
+      if(net==5){ # Second annealing network
+        if(runif(1)<=.75){
+          nets[[net]] <- nets[[net]] %>% igraph::add.edges(sample(1:n.agents,2))
+          nets[[net]]<-igraph::simplify(nets[[net]])
+        }
+      }
+    } # End each time step here
+    # Average of fitness 
+    perf.time <- sapply(1:tsteps, function(x) mean(agents[[x]][,'fitness.score'])) 
+    # Number of unique genomes
+    diversity <- sapply(1:tsteps, function(x) nrow(unique(agents[[x]]))) 
+    # Record results 
+    if (rep == 1){
+      netdata_perf[[net]] <- perf.time
+      netdata_div[[net]] <- diversity
+    } else {
+      netdata_perf[[net]] <- rbind(netdata_perf[[net]], perf.time)
+      netdata_div[[net]] <- rbind(netdata_div[[net]], diversity)
+    }
+    
+  }      # End each network repetition here
   
+} # End group of repetitions here
+
 # Keep track of total performance over time and total diversity over time
 netdata_perf.stable <- netdata_perf[c(1:5)]
 netdata_div.stable <- netdata_div[c(1:5)]
@@ -513,9 +514,9 @@ netdata_div.stable <- netdata_div[c(1:5)]
 pdf(file="FollowTheBest_1.pdf", width=12, height=5)
 par(mfrow=c(1,2))
 par(mar=c(5,5,2,2))
-plot(colMeans(netdata_perf.stable[[1]]), ylab = "Fitness", xlab = "Timesteps", ylim = c(0,.45), type ="n", cex.lab = 1.5, cex.axis = 1.2)
+plot(colMeans(netdata_perf.stable[[1]]), ylab = "Fitness", xlab = "Timesteps", ylim = c(0,1), type ="n", cex.lab = 1.5, cex.axis = 1.2)
 for(i in 1:length(nets)){
- lines(colMeans(netdata_perf.stable[[i]]), col = i, lwd = 2, lty=i) 
+  lines(colMeans(netdata_perf.stable[[i]]), col = i, lwd = 2, lty=i) 
 }
 
 legend(75,.3, legend=c("Full", "Ring", "Independent", TeX("Annealing: $\\gamma= 1.0$"), TeX("Annealing: $\\gamma=.75$")),lwd=2, lty=1:5, col=c(1,2,3,4, 5), bty="n")
@@ -528,4 +529,3 @@ for(i in 1:length(nets)){
 dev.off()
 
 ## ![figure](./images/FollowTheBest_1.pdf)
-
