@@ -339,7 +339,6 @@ N=15; K=10 #NK PARAMETERS
 n.agents=30 #NO. AGENTS
 tsteps=150 #NO. TIME STEPS. 
 repetitions = 200 
-repetitions = 200 
 #### Make networks
 nets <- list()
 nets[[1]] <-  make_full_graph(n.agents)
@@ -466,8 +465,8 @@ for (rep in 1:repetitions){
           gene_buffer.name <- paste(gene_buffer, collapse="")
           # Recompute fitness
           gene_buffer.fitness <- landscape1[which(landscape1$gene.names==gene_buffer.name),'fitness.score']
-        # Replace the original
-        agents[[i]][n,] <- data.frame(gene_buffer, fitness.score=gene_buffer.fitness, gene.names = gene_buffer.name)
+          # This was placed in error in the original book figure. I've corrected it here. 
+          agents[[i]][n,] <- data.frame(gene_buffer, fitness.score=gene_buffer.fitness, gene.names = gene_buffer.name)
         }
       }
       #COMPARE PAYOFFS AFTER LEARNING AND DECIDE WHETHER OR NOT TO SWITCH
